@@ -1,0 +1,13 @@
+{
+  "appTitle": "NESPRESSO",
+
+  "header": "Coffee machines in special \nprice for you!",
+  "description": "Choose your favorite products and show your code for discount at the store.",
+
+  "productOneName": "Essenza Mini \nNespresso",
+  "productTwoName": "Citi Milk \nNespresso",
+  "productThreeName": "Lattissima One \nMocca",
+  
+  "discoverButtonText": "DISCOVER MORE MACHINES",
+  "codeButtonText": "SHOW YOUR CODE"
+}
