@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations_example/widgets/product_tile.dart';
+import 'package:flutter_localizations_example/app_localizations.dart';
+
+import 'widgets/product_tile.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -10,7 +12,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          "NESPRESSO",
+          AppLocalizations.of(context)!.translate("appTitle"),
           style: TextStyle(
             color: Colors.black,
             letterSpacing: 0.85,
@@ -26,7 +28,7 @@ class HomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              "Coffee machines in special \nprice for you!",
+              AppLocalizations.of(context)!.translate("header"),
               style: TextStyle(
                 fontSize: 22.0,
                 fontWeight: FontWeight.w600,
@@ -35,7 +37,7 @@ class HomePage extends StatelessWidget {
             ),
             SizedBox(height: 12.0),
             Text(
-              "Choose your favorite products and show your code for discount at the store.",
+              AppLocalizations.of(context)!.translate("description"),
               style: TextStyle(
                 fontSize: 16.0,
                 color: Colors.black54,
@@ -46,19 +48,22 @@ class HomePage extends StatelessWidget {
                 children: [
                   ProductTile(
                     image: "images/image_one.jpg",
-                    name: "Essenza Mini \nNespresso",
+                    name: AppLocalizations.of(context)!
+                        .translate("productOneName"),
                     price: 500,
                     oldPrice: 1000,
                   ),
                   ProductTile(
                     image: "images/image_two.jpg",
-                    name: "Citi Milk \nNespresso",
+                    name: AppLocalizations.of(context)!
+                        .translate("productTwoName"),
                     price: 450,
                     oldPrice: 650,
                   ),
                   ProductTile(
                     image: "images/image_three.jpg",
-                    name: "Lattissima One \nMocca",
+                    name: AppLocalizations.of(context)!
+                        .translate("productThreeName"),
                     price: 1000,
                     oldPrice: 1500,
                   ),
@@ -70,7 +75,7 @@ class HomePage extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {},
                 child: Text(
-                  "DISCOVER MORE MACHINES",
+                  AppLocalizations.of(context)!.translate("discoverButtonText"),
                   style: TextStyle(color: Colors.black),
                 ),
                 style: ElevatedButton.styleFrom(
@@ -86,7 +91,7 @@ class HomePage extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {},
                 child: Text(
-                  "SHOW YOUR CODE",
+                  AppLocalizations.of(context)!.translate("codeButtonText"),
                   style: TextStyle(color: Colors.white),
                 ),
                 style: ElevatedButton.styleFrom(
