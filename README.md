@@ -4,6 +4,8 @@ Easily localize your Flutter app - Internationalize with JSON that contains tran
 
 - This project works with three different locales - English, Spanish and Hindi.
 
+Learn how to localize and internationalize your Flutter app using *Flutter Localizations* dependency and JSON files containing translated strings [this article](https://medium.com/@thecodexhubofficial/flutter-localization-internationalization-with-json-3ade47abca3f).
+
 ## Preview
 
 <img src="screenshots/ss.png" />
