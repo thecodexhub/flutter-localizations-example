@@ -1,10 +1,10 @@
 # Flutter Localizations Example
 
-Easily localize your Flutter app - Internationalize with JSON that contains translated strings for different locales.
+Easily localize your Flutter app - Internationalize with JSON that contains translated strings for different locales. Learn how to localize and internationalize your Flutter app using *Flutter Localizations* dependency and JSON files containing translated strings.
 
 - This project works with three different locales - English, Spanish and Hindi.
 
-Learn how to localize and internationalize your Flutter app using *Flutter Localizations* dependency and JSON files containing translated strings [this article](https://medium.com/@thecodexhubofficial/flutter-localization-internationalization-with-json-3ade47abca3f).
+ ### Read the article [here](https://medium.com/@thecodexhubofficial/flutter-localization-internationalization-with-json-3ade47abca3f).
 
 ## Preview
 
